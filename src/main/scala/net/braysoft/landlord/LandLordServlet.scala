@@ -8,7 +8,15 @@ class LandLordServlet extends RateMyLandlordStack {
     <html>
       <body>
         <h1>Sup, world!</h1>
-        Say <a href="hello-scalate">hello to Scalate</a>.
+        Say <a href="sup">hello to Scalate</a>.
+      </body>
+    </html>
+  }
+  
+  get("/sup") {
+    <html>
+      <body>
+        <h1>Esto es una movida!</h1>
       </body>
     </html>
   }
